@@ -12,9 +12,9 @@
 
 Dear Dr. González,
 
-My name is Gabriel Arce. I am a doctoral candidate at the USC Sol Price School of Public Policy and the Executive Director of the AUMER Foundation (Alba Union for Migrant and Elder Rights), a 501(c)(3) organization committed to archiving the lived experiences of migrant and elder communities.
+My name is Gabriel Arce. I am a doctoral candidate at the USC Sol Price School of Public Policy and the Executive Director of the AUMER Foundation (Alba Union for Migrant and Elder Rights), a 501(c)(3) organization committed to archiving the lived experiences of migrant and elder communities. I was referred to your work by Dr. [Baratta] at UCLA, who suggested you would be the right voice for this conversation.
 
-I am writing to request your scholarly expertise in connection with a 245,000-word literary-historical manuscript I have completed: *SGT George Ramos: The Mathematics of Vietnam*. The work documents the life of Sergeant George Ramos — an Army A-8 soldier and personal friend — and situates his story within a larger statistical and historical framework that has received no sustained academic attention: the systematic misclassification of Hispanic casualties in the Defense Casualty Analysis System (DCAS) and the Bureau of the Census's own records from the Vietnam era.
+I am writing to request your scholarly expertise in connection with a 245,000-word literary-historical manuscript I have completed: *SGT George Ramos: The Mathematics of Vietnam*. The work documents the life of Sergeant George Ramos — an Army A-8 soldier and personal friend — and situates his story within a larger statistical and historical framework that has received no sustained academic attention: the systematic misclassification of Hispanic casualties in the Defense Casualty Analysis System (DCAS) and the Bureau of the Census’s own records from the Vietnam era.
 
 An audit I conducted against BISG (Bayesian Improved Surname Geocoding) methodology reveals an 84.9% Hispanic casualty classification failure rate in DCAS records — approximately 349 casualties coded where demographic modeling suggests between 2,309 and 3,000 Hispanic servicemen died, out of a total casualty universe of N=58,220. This is not an interpretive gap. It is a structural omission that has shaped how we understand who bore the weight of that war — and one that falls squarely within the intersection of Latino politics, immigration enforcement, and veteran policy that defines your work.
 
@@ -24,36 +24,33 @@ The manuscript operates at the intersection of literary narrative, quantitative 
 
 I would be grateful if you would be willing to:
 
-1. Review the manuscript's literature review and methodology section and provide a brief expert statement — one to two paragraphs — on the significance of the DCAS classification gap in the context of Latino political exclusion, non-citizen veteran policy, and immigration enforcement.
+1. Review the manuscript’s literature review and methodology section and provide a brief expert statement — one to two paragraphs — on the significance of the DCAS classification gap in the context of Latino political exclusion, non-citizen veteran policy, and immigration enforcement.
 
 2. [OPTIONAL] Contribute a scholarly foreword or introductory note to accompany the manuscript in its institutional submissions to USC Libraries Special Collections and the Library of Congress Veterans History Project.
 
-3. [OPTIONAL] Advise on additional political science literature or empirical frameworks that would strengthen the manuscript's academic positioning.
+3. [OPTIONAL] Advise on additional political science literature or empirical frameworks that would strengthen the manuscript’s academic positioning.
 
-I recognize this is a significant ask. I am happy to share the relevant chapters, the DCAS audit methodology, and the full MNV case file summaries at whatever level of detail is useful to you. I am also available to speak by phone or video at your convenience.
+I am happy to share the relevant chapters, the DCAS audit methodology, and the full MNV case file summaries at whatever level of detail is useful to you. I am also available to speak by phone or video at your convenience.
 
-This project began as an act of witness — a friend's story that deserved to be told. It has become something larger: a record of a generation of men whose service was counted wrong, whose benefits were denied, and whose families waited decades for an accurate accounting. Your voice in this conversation would mean a great deal.
+This project began as an act of witness — a friend’s story that deserved to be told. It has become something larger: a record of a generation of men whose service was counted wrong, whose benefits were denied, and whose families waited decades for an accurate accounting. Your voice in this conversation would mean a great deal.
 
 Thank you for your time and your work.
 
 With respect,
 
 Gabriel Arce  
-Executive Director, AUMER Foundation  
-EIN: 47-3485977  
+Executive Director, AUMER Foundation | EIN: 47-3485977  
 PhD Candidate, USC Sol Price School of Public Policy  
-gabearce1@gmail.com  
-[YOUR PHONE]
+gabearce1@gmail.com | [YOUR PHONE]
 
 ---
 
-## Attachments
-- Executive summary (2 pages)
-- DCAS/BISG methodology brief (1 page)
+## To send right now
+1. Add your phone number
+2. Fill in Dr. Baratta’s first name/full title in the first paragraph
+3. Send from gtarce@usc.edu to alfredogonzalez@ucsb.edu
+4. Attach executive summary when ready (or send a follow-up with attachments)
 
-## Send Checklist
-- [ ] Add your phone number above
-- [ ] Attach executive summary + DCAS brief
-- [ ] Send from gtarce@usc.edu
-- [ ] Log in HubSpot → Contacts → Dr. Alfredo González → Note: "Outreach sent May 29, 2026"
-- [ ] Follow up in 10 business days if no response
+## Follow-up
+- 10 business days if no response
+- Log in Notion Submission Directory: Contact = Dr. Alfredo González, Status = Outreach Sent, Date = May 29, 2026
