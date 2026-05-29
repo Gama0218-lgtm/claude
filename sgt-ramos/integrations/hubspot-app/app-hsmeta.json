@@ -1,0 +1,42 @@
+{
+  "name": "AUMER Foundation",
+  "uid": "aumer-foundation",
+  "type": "app",
+  "config": {
+    "name": "AUMER Foundation",
+    "description": "Private integration app for AUMER Foundation (hub 46948033). Powers n8n automation, Perplexity research workflows, FOIA tracking, grant pipeline, and MNV case management for SGT George Ramos project.",
+    "distribution": "private",
+    "auth": {
+      "type": "static",
+      "redirectUrls": [],
+      "requiredScopes": [
+        "crm.objects.contacts.read",
+        "crm.objects.contacts.write",
+        "crm.objects.companies.read",
+        "crm.objects.companies.write",
+        "crm.objects.deals.read",
+        "crm.objects.deals.write",
+        "crm.objects.notes.read",
+        "crm.objects.notes.write",
+        "crm.schemas.contacts.read",
+        "crm.schemas.companies.read",
+        "crm.schemas.deals.read",
+        "crm.objects.owners",
+        "files",
+        "timeline"
+      ],
+      "optionalScopes": [
+        "crm.objects.line_items.read",
+        "crm.objects.line_items.write",
+        "crm.lists.read",
+        "crm.lists.write",
+        "crm.import",
+        "e-commerce"
+      ]
+    },
+    "support": {
+      "email": "gabearce1@gmail.com",
+      "supportedLanguages": ["en"]
+    }
+  }
+}
