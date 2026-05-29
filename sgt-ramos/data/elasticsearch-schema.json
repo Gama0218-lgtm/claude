@@ -1,0 +1,108 @@
+{
+  "comment": "Elasticsearch index mappings for SGT Ramos forensic manuscript analytics engine. Two indices: manuscript-chapters and research-documents.",
+
+  "manuscript-chapters": {
+    "mappings": {
+      "properties": {
+        "chapter_id":           { "type": "keyword" },
+        "chapter_number":       { "type": "integer" },
+        "act_label":            { "type": "keyword" },
+        "tier":                 { "type": "keyword" },
+        "word_count":           { "type": "integer" },
+        "dialogue_pct":         { "type": "float" },
+        "title":                { "type": "text", "analyzer": "english" },
+        "prose":                { "type": "text", "analyzer": "english" },
+        "prose_embedding":      { "type": "dense_vector", "dims": 1536, "index": true, "similarity": "cosine" },
+        "omega":                { "type": "float" },
+        "cls":                  { "type": "float" },
+        "bis":                  { "type": "float" },
+        "sii":                  { "type": "float" },
+        "mrf":                  { "type": "float" },
+        "restraint_score":      { "type": "float" },
+        "cl_moe_mean":          { "type": "float" },
+        "cme_mainstream":       { "type": "float" },
+        "behavioral_vectors": {
+          "type": "nested",
+          "properties": {
+            "agency":       { "type": "float" },
+            "risk":         { "type": "float" },
+            "compassion":   { "type": "float" },
+            "alignment":    { "type": "float" },
+            "code_switch":  { "type": "float" },
+            "spiritual":    { "type": "float" }
+          }
+        },
+        "autocrit": {
+          "type": "nested",
+          "properties": {
+            "overall":        { "type": "float" },
+            "strong_writing": { "type": "float" },
+            "dialogue":       { "type": "float" },
+            "repetition":     { "type": "float" }
+          }
+        },
+        "sensory_motifs":       { "type": "keyword" },
+        "code_switch_languages":{ "type": "keyword" },
+        "historical_claims":    { "type": "keyword" },
+        "verified_claims":      { "type": "keyword" },
+        "unverified_claims":    { "type": "keyword" },
+        "last_revised":         { "type": "date" },
+        "version":              { "type": "keyword" }
+      }
+    }
+  },
+
+  "research-documents": {
+    "mappings": {
+      "properties": {
+        "doc_id":               { "type": "keyword" },
+        "doc_type":             { "type": "keyword" },
+        "source_institution":   { "type": "keyword" },
+        "source_database":      { "type": "keyword" },
+        "foia_case_number":     { "type": "keyword" },
+        "verification_tier":    { "type": "keyword" },
+        "sha256_hash":          { "type": "keyword" },
+        "case_id":              { "type": "keyword" },
+        "title":                { "type": "text", "analyzer": "english" },
+        "content":              { "type": "text", "analyzer": "english" },
+        "content_embedding":    { "type": "dense_vector", "dims": 1536, "index": true, "similarity": "cosine" },
+        "date_of_record":       { "type": "date" },
+        "date_acquired":        { "type": "date" },
+        "provenance_chain":     { "type": "text" },
+        "deportation_cycle_stage": { "type": "keyword" },
+        "psid_variables":       { "type": "keyword" },
+        "chapter_crossrefs":    { "type": "keyword" },
+        "status":               { "type": "keyword" },
+        "notes":                { "type": "text" }
+      }
+    }
+  },
+
+  "institution-directory": {
+    "mappings": {
+      "properties": {
+        "institution_id":       { "type": "keyword" },
+        "name":                 { "type": "text", "fields": { "keyword": { "type": "keyword" } } },
+        "type":                 { "type": "keyword" },
+        "focus_area":           { "type": "keyword" },
+        "tier":                 { "type": "integer" },
+        "country":              { "type": "keyword" },
+        "state_region":         { "type": "keyword" },
+        "website_url":          { "type": "keyword", "index": false },
+        "submission_portal_url":{ "type": "keyword", "index": false },
+        "contact_name":         { "type": "text" },
+        "contact_role":         { "type": "keyword" },
+        "contact_email":        { "type": "keyword", "index": false },
+        "record_type_interest": { "type": "text" },
+        "stress_test_claim":    { "type": "text" },
+        "submission_policy":    { "type": "keyword" },
+        "verification_weight":  { "type": "float" },
+        "last_contact_date":    { "type": "date" },
+        "submission_id":        { "type": "keyword" },
+        "footprint_log_entry":  { "type": "keyword" },
+        "status":               { "type": "keyword" },
+        "notes":                { "type": "text" }
+      }
+    }
+  }
+}
